@@ -23,7 +23,7 @@ contract APIConsumer is ChainlinkClient {
     constructor() public {
         setPublicChainlinkToken();
         oracle = 0x79a86bA2839edD0a60Fc1aC435ff8015B77f399D; //grand
-        jobId = ""; // change up
+        jobId = "000"; // change up
         fee = 0.1 * 10 ** 18; // (Varies by network and job) // should be grand
     }
 
